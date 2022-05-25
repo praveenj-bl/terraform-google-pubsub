@@ -45,13 +45,13 @@ variable "sub_lables" {
 variable "push_endpoint" {
   type        = string
   description = "Endpoint to push the messeges."
-  default = "https://example.com/push"
+  default     = "https://example.com/push"
 }
 
 variable "dead_letter_topicID" {
   type        = string
   description = "The name of the topic to which dead letter messages should be published. \n Format is projects/{project}/topics/{topic}"
-  default = "test_topic"
+  default     = "test_topic"
 }
 
 variable "projectID" {
